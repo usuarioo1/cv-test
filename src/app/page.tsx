@@ -289,7 +289,7 @@ export default function CVDetallado() {
                       value={formData.nombre}
                       onChange={handleInputChange}
                       required
-                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500 text-black"
                     />
                   </div>
                   <div>
@@ -303,7 +303,7 @@ export default function CVDetallado() {
                       value={formData.email}
                       onChange={handleInputChange}
                       required
-                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500 text-black"
                     />
                   </div>
                   <div>
@@ -317,7 +317,7 @@ export default function CVDetallado() {
                       value={formData.mensaje}
                       onChange={handleInputChange}
                       required
-                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500"
+                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-purple-500 focus:ring-purple-500 text-black"
                     ></textarea>
                   </div>
                   <div>
@@ -353,7 +353,7 @@ export default function CVDetallado() {
           </div>
           <div className="mt-8 md:mt-0 md:order-1">
             <p className="text-center text-base text-gray-400">
-              &copy; 2023 María García. Todos los derechos reservados.
+              &copy; 2023 María García. Todos los derechos reservados para este CV.
             </p>
           </div>
         </div>
